@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PTSP Pengadilan Negeri Gunung Sugih</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body,
+    html {
+      font-family: 'Poppins', sans-serif;
+      background-color: #F3F6F8;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #F3F6F8;
+      color: #000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .content {
+      flex-grow: 1;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #103F39;
+      color: white;
+      font-size: 0.9em;
+    }
+
+    .banner-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  max-height: 500px;
+}
+
+.banner-container {
+  margin: 20px auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+/* Media query untuk perangkat dengan lebar layar yang lebih kecil */
+@media (max-width: 768px) {
+  .banner-image {
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner-image {
+    max-height: 300px;
+  }
+}
+
+/* Style untuk heading dan paragraf */
+.heading-bold {
+  font-size: 1.75rem; /* Ukuran awal untuk layar besar */
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Media query untuk layar sedang */
+@media (max-width: 768px) {
+  .heading-bold {
+    font-size: 1.5rem; /* Ukuran teks menurun pada layar sedang */
+  }
+  .text-center.mt-4 {
+    font-size: 1rem; /* Paragraf teks lebih kecil di layar sedang */
+  }
+}
+
+/* Media query untuk layar kecil */
+@media (max-width: 576px) {
+  .heading-bold {
+    font-size: 1.25rem; /* Ukuran teks lebih kecil di layar kecil */
+  }
+  .text-center.mt-4 {
+    font-size: 0.9rem; /* Paragraf teks lebih kecil di layar kecil */
+  }
+}
+  </style>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="mt-4">
+    <img src="logo/logoebrosur.png" alt="Logo Pengadilan" style="height: 50px; width: auto;">
+  </header>
+
+  <!-- Content Section -->
+  <div class="container content">
+    <h2 class="text-center heading-bold mt-4">Selamat Datang di E-Brosur Pelayanan Terpadu Satu Pindu (PTSP)
+      Pengadilan Negeri Gunung Sugih Kelas I B</h2>
+  <p class="text-center mt-4">Di sini Anda dapat menemukan berbagai layanan yang kami sediakan.</p>
+
+    <!-- Category Buttons Section -->
+    <div class="d-flex flex-wrap justify-content-center my-4">
+      <a href="index.html" class="btn py-2 px-4 rounded-pill mr-3 mb-2"
+        style="background-color: #1958F7; color:white; font-weight: bold;">Beranda</a>
+      <a href="ptsp.umum.html" class="btn py-2 px-4 rounded-pill mr-3 mb-2"
+        style="background-color: #1958F7; color:white; font-weight: bold;">Umum</a>
+      <a href="ptsp.pidana.html" class="btn py-2 px-4 rounded-pill mr-3 mb-2"
+        style="background-color: #000000; color:white; font-weight: bold;">Pidana</a>
+      <a href="ptsp.perdata.html" class="btn py-2 px-4 rounded-pill mr-3 mb-2"
+        style="background-color: #1958F7; color:white; font-weight: bold;">Perdata</a>
+      <a href="ptsp.hukum.html" class="btn py-2 px-4 rounded-pill mr-3 mb-2"
+        style="background-color: #1958F7; color:white; font-weight: bold;">Hukum</a>
+      <a href="ptsp.posbakum.html" class="btn py-2 px-4 rounded-pill mr-3 mb-2"
+        style="background-color: #1958F7; color:white; font-weight: bold;">Posbakum</a>
+    </div>
+
+    <!-- Layanan Section with Banner and Description -->
+    <div class="banner-container">
+      <h5 class="text-center">LAYANAN KEPANITERAAN PIDANA</h5>
+      <p class="text-left">
+        1. Menerima pelimpahan berkas perkara pidana biasa, Tipikor, perikanan, singkat, ringan, dan cepat/lalu lintas dari Penuntut Umum/Penyidik.<br>
+        2. Menerima pendaftaran permohonan praperadilan.<br>
+        3. Menerima permohonan perlawanan, banding, kasasi, peninjauan kembali, dan grasi.<br>
+        4. Menerima permohonan pencabutan perlawanan, banding, kasasi, dan peninjauan kembali.<br>
+        5. Menerima permohonan izin/persetujuan penggeledahan dan menyerahkan izin/persetujuan penggeledahan yang sudah ditandatangani Ketua Pengadilan.<br>
+        6. Menerima permohonan izin/persetujuan penyitaan dan menyerahkan izin/persetujuan penyitaan yang sudah ditandatangani oleh Ketua Pengadilan.<br>
+        7. Menerima permohonan izin/persetujuan pemusnahan barang bukti dan/atau pelelangan barang bukti.<br>
+        8. Menerima permohonan perpanjangan penahanan dan menyerahkan penetapan perpanjangan penahanan yang sudah ditandatangani Ketua Pengadilan.<br>
+        9. Menerima permohonan pembantaran dan menyerahkan persetujuan pembantaran yang sudah ditandatangani Ketua Pengadilan.<br>
+        10. Menerima permohonan izin besuk dan menyerahkan pemberian izin besuk.<br>
+        11. Menerima permohonan dan menyerahkan izin berobat bagi terdakwa yang telah ditandatangani Ketua Pengadilan.<br>
+        12. Layanan-layanan lain yang berhubungan dengan proses dan informasi penyelesaian perkara pidana/kekhususan.
+      </p>
+      <!-- Banner Image with Click to Popup -->
+      <img src="banner/brosur_pidana.jpg" alt="Banner Layanan" class="banner-image" data-toggle="modal" data-target="#imageModal">
+    </div>
+    </div>
+
+  <!-- Image Modal Popup -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="banner/brosur_pidana.jpg" alt="Banner Layanan" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p class="mt-2">&copy; 2024 Pengadilan Negeri Gunung Sugih Kelas I B. Hak Cipta Terlindungi.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
